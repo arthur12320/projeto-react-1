@@ -6,18 +6,26 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className='Check-div'>
+          <input type="checkbox" />
+          <label >REACT OK</label>
+        </div>
+        <div className='Check-div'>
+          <input type="checkbox" />
+          <label >Typescript OK</label>
+        </div>
+        <div className='Check-div'>
+          <input type="checkbox" />
+          <label >Nota tá OK</label>
+        </div>
+        <div className='Check-div'>
+          <input type="checkbox" />
+          <label >Marcio achou OK</label>
+        </div>
+        <div className='Check-div'>
+          <input type="checkbox" />
+          <label >É hj que eu passo na eletiva de uma vez...</label>
+        </div>
       </header>
     </div>
   );

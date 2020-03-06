@@ -13,6 +13,16 @@
   }
 }
 
+.Check-div{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 30px;
+  width: 400px;
+  border: 2px solid rgb(226, 72, 0);
+  border-radius: 20px;
+
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
